@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+[data-tab-content] {
+    display: none;
+  }
+
+  .name{
+      padding: 40px 20px;
+  }
+  .name:hover{
+      background: #f6fafa;
+  }
+  .name h1:hover{
+    color: rgb(42, 73, 24);
+  }
+
+  .about img{
+      width: 35%;
+      max-width: 240px;
+      float: left;
+      margin: 62px 15px 15px 0px;
+      transition: 0.5s all ease-in-out;
+  }
+
+  .about img:hover{
+    transform: scale(1.1);
+  }
+
+  .about p{
+      padding: 10px;
+      font-size: 20px;
+  }
+
+  #about{
+      padding-top: 78px;
+      margin-bottom: 73px;
+  }
+
+  .about{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 60px;
+    word-spacing: 5px;
+    margin-bottom: 40px;
+  }
+
+  a{
+      color: black;
+  }
+  
+  .active[data-tab-content] {
+    display: block;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tabs {
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 5px;
+    border: 1px solid black;
+    background: #0a7275;
+    overflow: hidden;
+  }
+  
+  .tab {
+    cursor: pointer;
+    padding: 8px; 
+    font-size: 20px;
+    color: white;
+  }
+  .tab a{
+    cursor: pointer;
+    padding: 8px; 
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .tab.active {
+    background-color: rgb(21, 165, 110);
+  }
+  
+  .tab:hover {
+    background-color: rgb(58, 97, 74);
+  }
+  
+  .tab-content {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .tab-content h1{
+    padding: 10px;
+    font-size: 25px;
+    padding-left: 20px;
+    display: block;
+    border: 1px solid rgb(85, 238, 179) ;
+    background: rgb(85, 238, 179);
+    font-weight: 80;
+  }
+
+  .preprints{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: left;
+  }
+  .preprints li{
+    padding: 10px;
+    word-spacing: 3px;
+    list-style-type: none;
+  }
+
+  li:hover{
+    background-color:rgba(201, 192, 192, 0.726);
+  }
+
+  .teach{
+      box-sizing: border-box;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border: 1px solid #84bbbd ;
+  }
+
+  .teach li{
+    padding: 10px;
+    word-spacing: 3px;
+    font-size: 19px;
+    border: 0.1px solid #c2cdce;
+    list-style-type: none;
+  }
+
+  .ab{
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  .con{
+    margin: 40px 30px;
+    font-size: 18px;
+    word-spacing: 3px;
+    box-sizing: border-box;
+    border: 0.1px solid;
+    padding: 30px;
+    background-color:rgb(220, 245, 237);
+    box-shadow: 0 10px 10px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+  }
+
+  spa{
+    background-color: rgb(145, 238, 133);
+    border-radius: 10px;
+  }
+
+  #blog p{
+    margin: 50px
+  }
+
